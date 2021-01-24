@@ -97,9 +97,6 @@
   .navbar-links.active {
       display: flex;
   }
-  #profileImg {
-    margin-top: 66px
-  }
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 
@@ -112,4 +109,20 @@
   position: relative;
   overflow: hidden;
   padding: 0px 0px;
+}
+#career{
+  background: url(../img/pexels-ksenia-chernaya-5691695.jpg) no-repeat center/cover;
+  height: auto;
+  padding: 90px 0;
+  color: aliceblue;
+}
+#career h3{
+  font-size: 36px;
+  margin: 0px 0px 60px;
+}
+#career p{
+  margin: 20px 0;
+}
+#career a{
+  padding: 17px 49px;
 }
