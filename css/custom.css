@@ -1,143 +1,109 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
-body {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-section {
-  height: auto;
-}
-
-/* NAVIGATION */
-nav {
-  width: 100%;
-  margin: 0 auto;
-  background: #fff;
-  padding: 30px 0;
-  box-shadow: 0px 2px 0px #dedede;
-}
-nav ul {
-  list-style: none;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 15px;
-}
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-nav ul li a:hover {
-  color: #555;
-  text-decoration: none;
-}
-
-/* Blend */
-nav.blend ul li a {
+.navbar1 {
+  display: flex;
   position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-  z-index: 1;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
-nav.blend ul li a:hover {
-  color: #fff;
+
+.brand-title {
+  margin: .5rem;
 }
-nav.blend ul li a:before,
-nav.blend ul li a:after {
-  position: absolute;
-  width: 0px;
+.brand-title h1 {
+  font-size: 2rem;
+  
+}
+
+.navbar-links {
   height: 100%;
-  top: 0;
-  bottom: 0;
-  background: #D35400;
-  transition: all .5s;
-  margin: auto;
-  content: '.';
-  color: transparent;
-  z-index: -1;
-  opacity: 0.75;
-}
-nav.blend ul li a:before {
-  left: 0;
-}
-nav.blend ul li a:after {
-  right: 0;
 }
 
-nav.blend ul li a:hover:after,
-nav.blend ul li a:hover:before {
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar-links li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
   width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 
-/* Keyframes */
-@-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: 1px;
+@media (max-width: 800px) {
+  .navbar1 {
+      flex-direction: column;
   }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: #2ECC71;
-  }
-}
+  
 
-/* Keyframes */
-@-webkit-keyframes circle {
-  0% {
-    width: 1px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    height: 1px;
-    z-index: -1;
-    background: #eee;
-    border-radius: 100%;
+  .toggle-button {
+      display: flex;
   }
-  100% {
-    background: #aaa;
-    height: 5000%;
-    width: 5000%;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 0;
+
+  .navbar-links {
+      display: none;
+      width: 100%;
+  }
+
+  .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbar-links ul li {
+      text-align: center;
+  }
+
+  .navbar-links ul li a {
+      padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+      display: flex;
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
-/* grid1 */
-.hd{
+
+#hd{
   background: url(../img/pexels-cottonbro-3826435.jpg) no-repeat center/cover;
   font-family: 'Ubuntu', sans-serif;
   color: aliceblue;
   width: 100%;
-  height: 90vh;
+  height: auto;
   position: relative;
   overflow: hidden;
+  padding: 0px 0px;
 }
-.hd a{
-  text-decoration: none;
-  margin: 3px 8px;
-}
+
