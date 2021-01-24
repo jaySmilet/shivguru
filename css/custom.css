@@ -128,10 +128,7 @@ nav.blend ul li a:hover:before {
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
 /* grid1 */
-.grid1{
-  display: grid;
-  grid-template-columns: 50% 30%;
-  grid-gap: 10%;
+.hd{
   background: url(../img/pexels-cottonbro-3826435.jpg) no-repeat center/cover;
   font-family: 'Ubuntu', sans-serif;
   color: aliceblue;
@@ -140,40 +137,7 @@ nav.blend ul li a:hover:before {
   position: relative;
   overflow: hidden;
 }
-.grid1 .grid-left a{
+.hd a{
   text-decoration: none;
   margin: 3px 8px;
-}
-@media screen and (max-width: 490px) {
-.grid1 h2{
-  font-size: 18px;
-}
-.grid1 h3{
-  font-size: 12px;
-}
-}
-@media screen and (max-width: 570px) {
-.grid1 h2{
-  font-size: 24px;
-}
-.grid1 h3{
-  font-size: 20px;
-}
-}
-@media screen and (max-width: 767px) {
-.grid1{
-  grid-template-columns: 100%;
-  grid-gap: 0%;
-  height: 110vh;
-  padding: 0;
-}
-.grid1 h2{
-  font-size: 28px;
-}
-.grid1 h3{
-  font-size: 24px;
-}
-.grid1 p{
-  display: none;
-}
 }
