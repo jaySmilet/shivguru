@@ -85,6 +85,10 @@
   .navbar-links ul li {
       text-align: center;
   }
+  .navbar-links li a:hover {
+    color: wheat;
+    border-bottom: none;
+  }
 
   .navbar-links ul li a {
       padding: .5rem 1rem;
@@ -92,6 +96,9 @@
 
   .navbar-links.active {
       display: flex;
+  }
+  #profileImg {
+    margin-top: 66px
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
@@ -106,4 +113,3 @@
   overflow: hidden;
   padding: 0px 0px;
 }
-

@@ -40,4 +40,5 @@ h3 {
   }
   .btn-primary:hover {
     transform: scale(0.98);
+    text-decoration: none;
   }
