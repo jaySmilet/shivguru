@@ -126,3 +126,34 @@
 #career a{
   padding: 17px 49px;
 }
+
+#stats{
+  background: white;
+}
+#stats .container .box{
+  margin: 10px 0;
+}
+#stats .container .box1,
+#stats .container .box2,
+#stats .container .box3{
+  border-right: 1px solid #131212;
+}
+#stats .container .box p b{
+  font-size: 40px;
+}
+#stats .container .box .title{
+  font-size: 19px;
+}
+#courses{
+  background: rgb(218, 212, 212);
+}
+#courses .course{
+  margin: 10px 0;
+  padding: 20px 0;
+}
+#courses .container p{
+  font-size: 19px;
+}
+#courses .container p b{
+  font-size: 32px;
+}
