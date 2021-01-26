@@ -86,7 +86,7 @@
       text-align: center;
   }
   .navbar-links li a:hover {
-    color: wheat;
+    color: rgb(145, 140, 140);
     border-bottom: none;
   }
 
@@ -98,11 +98,10 @@
       display: flex;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
 
 #hd{
-  background: url(../img/pexels-cottonbro-3826435.jpg) no-repeat center/cover;
-  font-family: 'Ubuntu', sans-serif;
+  background: url(../img/header.jpg) no-repeat center/cover;
   color: aliceblue;
   width: 100%;
   height: auto;
@@ -110,14 +109,19 @@
   overflow: hidden;
   padding: 0px 0px;
 }
+#hd p{
+  background: rgba(65, 59, 59,0.2);
+}
 #career{
-  background: url(../img/pexels-ksenia-chernaya-5691695.jpg) no-repeat center/cover;
-  height: auto;
-  padding: 90px 0;
-  color: aliceblue;
+  background: url(../img/pexels-instawalli-176851.jpg) no-repeat center/cover;
+ color: whitesmoke;
+
+  
+ 
+  padding: 60px 0;
+
 }
 #career h3{
-  font-size: 36px;
   margin: 0px 0px 60px;
 }
 #career p{
@@ -128,24 +132,30 @@
 }
 
 #stats{
-  background: white;
+  background-image: url(../img/pexels-pixabay-414144.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 60px 0;
 }
 #stats .container .box{
-  margin: 10px 0;
+  margin: 25px 0;
 }
 #stats .container .box1,
 #stats .container .box2,
 #stats .container .box3{
-  border-right: 1px solid #131212;
+  border-right: 1px solid white;
 }
 #stats .container .box p b{
-  font-size: 40px;
+  font-size: 36px;
 }
 #stats .container .box .title{
   font-size: 19px;
 }
 #courses{
-  background: rgb(218, 212, 212);
+  background: white;
+  padding: 60px 0;
 }
 #courses .course{
   margin: 10px 0;
