@@ -36,7 +36,18 @@ h3 {
     color: #fff;
     display: inline-block;
   }
-  .btn-primary:hover {
+  .bt:hover {
     transform: scale(0.98);
     text-decoration: none;
+  }
+
+  .bread{
+      margin: 20px auto;
+      background-color: azure;
+      width: 150px;
+      height: auto;
+      color: rgb(10, 10, 10);
+  }
+  .bread h4{
+      font-weight: bold;
   }

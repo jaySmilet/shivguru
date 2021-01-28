@@ -109,6 +109,9 @@
   overflow: hidden;
   padding: 0px 0px;
 }
+#hd img{
+ opacity: 0.8;
+}
 #hd p{
   background: rgba(65, 59, 59,0.2);
 }
@@ -178,6 +181,9 @@
   }
   #features .featuresItem{
     margin: 15px;
+  }
+  #hd #profileImg{
+    margin-top: 25px;
   }
 }
 #courses .container p{
