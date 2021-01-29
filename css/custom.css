@@ -201,3 +201,37 @@
   margin-top: 100px;
   margin-bottom: 40px;
 }
+#about #aboutLeft a{
+  font-size: large;
+  font-weight: bold;
+  color:#262626;
+}
+#about #aboutLeft a:hover{
+  color: #5a5555;
+}
+#about #aboutRight a,
+#contact a{
+ margin: 5px;
+}
+#about #aboutRight a .fa-facebook-square,
+#contact a .fa-facebook-square{
+  color: #4267B2;   
+}
+#about #aboutRight a .fa-twitter-square,
+#contact a .fa-twitter-square{
+  color: #1DA1F2;   
+}
+#about #aboutRight a .fa-instagram-square,
+#contact a .fa-instagram-square{
+  color: #C13584;   
+}
+#about #aboutRight a .fa-youtube,
+#contact a .fa-youtube{
+  color: #FF0000;  
+}
+
+/* Contact */
+#contact {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
