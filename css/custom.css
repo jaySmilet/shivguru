@@ -185,7 +185,8 @@
   #hd #profileImg{
     margin-top: 25px;
   }
-  #about #aboutLeft {
+  #about #aboutLeft,
+  #contact #contactLeft {
     margin-bottom: 40px;
   }
 }
